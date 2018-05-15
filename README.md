@@ -1,13 +1,12 @@
 # tree
-
 # 2018948026 안세훈
-#8-1
+# 8-1
 a=input("문자열 : ")
 print("문자열 길이 :", len(a))
 print("첫 번째 문자 :", a[0])
 print("두 번째 문자 :", a[1])
 print("마지막 문자 :", a[-1])
-#8-2
+# 8-2
 x=-1
 a=input("문자열 : ")
 for i in range(len(a)):
@@ -18,7 +17,7 @@ y=len(a)
 for k in range(len(a)):
     y-=1
     print(a[y],end="")
-#8-3
+# 8-3
 score=int(input("점수 : "))
 if score<=100 and score>=90:
     print(score,": A")
@@ -32,12 +31,12 @@ elif score<=59 and score>=0:
     print(score, ": F")
 else:
     print("입력 가능한 점수 범위는 0~100입니다.")
-#8-4
+# 8-4
 deg={10:'A',9:'A',8:'B',7:'C',6:'D',5:'F',4:'F',3:'F',2:'F',1:'F',0:'F'}
 score=int(input("점수 : "))
 grade=score//10
 print(score, ":", deg.get(grade))
-#8-5
+# 8-5
 items={"라면":650,"우유":1100,"콜라":1200,"캔커피":500,"과자":700}
 a=0
 sum=0
@@ -51,7 +50,7 @@ while a==0:
     if not it in items:
         print(it,"는 미등록 제품입니다.")
 print("총 금액 :", sum)
-#8-6
+# 8-6
 engkor_dict={}
 eng=""
 kor=""
@@ -64,7 +63,7 @@ while a==0:
         del engkor_dict[kor]
         break
 print(engkor_dict)
-#8-7
+# 8-7
 engkor_dict={}
 eng=""
 kor=""
