@@ -86,3 +86,23 @@ while a==0:
         break
 print(engkor_dict)
 
+# 8-8
+
+import time
+for i in range(1,6):
+    print(i,end=" ")
+time.sleep(1)
+
+# 8-9
+
+import math
+num=float(input("실수 : "))
+print(num,":",math.ceil(num))
+print(num,":",math.floor(num))
+print(num,":",math.trunc(num))
+
+
+
+
+
+
